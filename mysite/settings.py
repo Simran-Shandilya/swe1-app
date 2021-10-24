@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-*7nsu9*biqd8n*!z^9#v^#h_)=l$l=b&j3)k+wv(_2r&j#rvmg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['se_scrum3_polls.heroku.com', '']
+ALLOWED_HOSTS = ['se-scrum3-polls.heroku.com', '']
 
 
 # Application definition
