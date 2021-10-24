@@ -8,4 +8,6 @@ script:
   - python manage.py 
   - flake8 --max-line-length=92
   - black --check .
-  
+after_success:
+  - coveralls
+
