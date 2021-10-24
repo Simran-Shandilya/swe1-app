@@ -5,9 +5,9 @@ before-install:
   - pip install black
   - pip install flake8
 script: 
-  - python manage.py 
+  - python manage.py migrate
   - flake8 --max-line-length=92
   - black --check .
-after_success:
+after_script:
   - coveralls
 
